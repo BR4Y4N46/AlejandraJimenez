@@ -6,8 +6,8 @@
 
 :root {
     --background-body: #fff;
-    --background-narbar:/*rgb(214, 107, 107);*/ rgb(0, 255, 140);
-    --backgrou-hover-nvbar: rgb(85, 247, 193);
+    --background-narbar:rgb(214, 107, 107);/*rgb(0, 255, 140);*/ 
+    --backgrou-hover-nvbar: rgb(175, 40, 7);
     --background-cv: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(88, 193, 21, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
 
@@ -19,7 +19,8 @@ colgroup{
 }
 
 body {
-    
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     background-color: var(--background-body);
     height: 100vh;
     width: 100%;
@@ -171,7 +172,7 @@ b {
 
 img {
     width: 600px;
-    height: 500px;
+    height: 600px;
     border-radius: 40% 0px;
     box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.4);
 }
@@ -190,6 +191,8 @@ img {
     margin-bottom: 50px;
     background-size: 100% 100%;
     background-image: url(./img/boton-de-play.png);
+    opacity: 0.6;
+    border-radius: 50%;
     border: none;
     background-color: var(--background-body);
     animation: crecerYEncoger 1s infinite;
@@ -357,7 +360,7 @@ p{
     /* Ocultar el contenedor inicialmente */
     width: 100%;
     height: 100%;
-    margin-top: 150px;
+    margin-top: 230px;
     background-color: #f9f9f9;
     position: absolute;
     top: 0;
@@ -450,6 +453,7 @@ p{
     header{
         display: block;
         margin-bottom: 10px;
+
     }
 
     .containerhome1{
